@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html>
+  <head><title>Arbitrary Names!</title></head>
+  <body>
+    <h1>{{ header }}</h1>
+    <form method="POST">
+      {% csrf_token %}
+      <input type="text" name="name" placeholder="Enter name">
+    </form>
+    {% if messages %}
+        {% for message in messages %}
+            <p style='color:green';>{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+
+    {% for each in all_items %}
+        {{ each.name }}<br>
+    {% endfor %}
+
+  </body>
+</html>
