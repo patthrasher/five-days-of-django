@@ -1,2 +1,2 @@
-# five-days-of-django
-Five days, five simple projects
+# small-djangos
+Some small practice projects using Django
