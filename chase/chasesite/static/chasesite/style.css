@@ -1,0 +1,21 @@
+.header {
+    font-family: monospace sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+.projects {
+    /* background-color: dodgerblue; */
+    padding: 0 10% 0 10%;
+}
+
+.houses {
+  width: 50%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.project {
+    /* background-color: dodgerblue; */
+    padding: 0 10% 0 10%;
+}
